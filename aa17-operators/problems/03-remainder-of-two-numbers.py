@@ -4,7 +4,8 @@
 # that value.  You should be able to do this with one line in the body of your
 # function.
 
-# Write your function here.
+def remainder(num1, num2):
+    return num1 % num2
 
 
 print(remainder(1, 3))  #> 1

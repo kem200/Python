@@ -7,7 +7,14 @@
 # make this easier.
 # https://docs.python.org/3.9/library/stdtypes.html?highlight=strings#string-methods
 
-# Write your function here.
+def first_before_second(str1, str2, str3):
+    a = str1.rfind(str2)
+    b = str1.find(str3)
+    return a < b
+
+
+
+
 
 
 print(first_before_second("a rabbit jumps joyfully", "a", "j"))
@@ -23,4 +30,3 @@ print(first_before_second("happy birthday", "a", "y"))
 
 print(first_before_second("precarious kangaroos", "k", "a"))
 #> False
-

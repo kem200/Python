@@ -2,7 +2,8 @@
 # the calculation. You should be able to do this with one line in the body of
 # your function.
 
-# Write your function here.
+def calculate_exponent(num1, num2):
+    return num1 ** num2
 
 
 print(calculate_exponent(5, 5))     #> 3125
